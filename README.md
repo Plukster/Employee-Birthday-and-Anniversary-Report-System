@@ -26,12 +26,6 @@ Generates monthly reports for birthdays and anniversaries
 ```bash
 python report.py database.csv april
 ```
-## Run web server for API access:
-```
-python web_app.py
-
-Then visit http://localhost:5000/birthdays?month=april to get JSON response.
-```
 **Output Format:**
 ```
 Report for April generated
@@ -47,6 +41,35 @@ By department:
 - Finance: 5
 - R&D: 10
 - Engineering: 16
+```
+## Run web server for API access:
+```
+python web_app.py
+
+Then visit http://localhost:5000/birthdays?month=april to get JSON response.
+```
+**Output Format:**
+```
+{
+  "anniversaries": {
+    "by_department": {
+      "R&D": 1
+    },
+    "total": 1
+  },
+  "birthdays": {
+    "by_department": {
+      "Engineering": 4,
+      "Finance": 4,
+      "HR": 3,
+      "Marketing": 3,
+      "Operations": 3,
+      "R&D": 3
+    },
+    "total": 20
+  },
+  "month": "April"
+}
 ```
 
 ## Setup and Usage
