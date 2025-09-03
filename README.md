@@ -26,7 +26,12 @@ Generates monthly reports for birthdays and anniversaries
 ```bash
 python report.py database.csv april
 ```
+## Run web server for API access:
+```
+python web_app.py
 
+Then visit http://localhost:5000/birthdays?month=april to get JSON response.
+```
 **Output Format:**
 ```
 Report for April generated
