@@ -121,6 +121,3 @@ To modify the system:
 2. Modify `report.py` to change how anniversaries are calculated
 3. Adjust department names in either file as needed
 
-- Finance: 1
-  Employees: Jane Doe
-```
