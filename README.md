@@ -121,18 +121,6 @@ To modify the system:
 2. Modify `report.py` to change how anniversaries are calculated
 3. Adjust department names in either file as needed
 
-## Example Output
-
-```
-Report for May generated
---- Birthdays ---
-Total: 0
-By department:
---- Anniversaries ---
-Total: 2
-By department:
-- Engineering: 1
-  Employees: John Smith
 - Finance: 1
   Employees: Jane Doe
 ```
